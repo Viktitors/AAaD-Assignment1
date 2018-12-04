@@ -1,0 +1,16 @@
+EXAMPLE 1:
+(The total weight is 4000)
+Enter 4 packets, 2000,1000,300 and 800
+It should order the packets like this: 300, 800, 1000, 2000
+And take the first 3 packets so 300+800+1000=2100, that is lower than 4000,
+because taking the 4 packets provokes overweight:300+800+1000+2000=4100>4000
+Then it should show these 3 packets, and 30 euros for the amount of money,
+as the stablished cost for each packet is 10 euros.
+================================================================================
+EXAMPLE 2:
+(The total weight is 4000)
+Enter 6 packets, 1000,800,200,900,50 and 1050
+It should order the packets like this: 50,200,800,900,1000 and 1050
+And take the first 6 packets so 50+200+800+900+1000+1050=4000, that is equal to 4000,
+Then it should show these 6 packets, and 60 euros for the amount of money,
+as the stablished cost for each packet is 10 euros.
